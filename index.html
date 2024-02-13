@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC Blog Site</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="gdscicon.ico">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Julius Sans One:wght@400&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marzo:wght@400&display=swap" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css"/>
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marvel:wght@400&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iceland:wght@400&display=swap"/>
+<link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap"rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap"rel="stylesheet"/>
+<body>
+   
+    <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+    <div class="hamburger-parent">
+        <div class="hamburger">
+            <input type="checkbox" name="" id="menuBtn">
+            <div class="menu_overlay">
+                <label for="menuBtn">
+                    <i class="fas fa-times"></i>
+                </label>
+                <div id="searchgrandparent-menu">
+                    <div id="searchparent-menu">
+                        <div id="search-menu">
+                            <form >
+                                <input type="text" placeholder="Search...">
+                                <button type="submit"><img src="search.svg" alt=""></button>
+                            </form>
+                        </div>
+            
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+                <div class="hamburger-social">
+                    <a href="https://in.linkedin.com/company/gdsc-tezpur-university" target="_blank"><img src="linkedin.svg" alt="linkedin logo"></a>
+                    <a href="https://twitter.com/gdsc_tezu" target="_blank"><img src="x.svg" alt="x logo"></a>
+                    <a href="https://m.facebook.com/profile.php?id=61550245499884&locale=en_GB&_rdr" target="_blank"><img src="meta.svg" alt="meta logo"></a>
+                    <a href="https://www.instagram.com/gdsc_tezu/" target="_blank"><img src="instagram.svg" alt="instagram logo"></a>
+                </div>
+            </div>
+            <div class="landing_page">
+                <div class="menu">
+                    <label for="menuBtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+   
+    <div class="nav">
+        <div class="nav-top">
+            <div class="gdsc-logo">
+              <img src="gdsclogo.svg" alt="">  
+            </div>
+
+            <div class="social">
+                <a href="https://in.linkedin.com/company/gdsc-tezpur-university" target="_blank"><img src="linkedin.svg" alt="linkedin logo"></a>
+                <a href="https://twitter.com/gdsc_tezu" target="_blank"><img src="x.svg" alt="x logo"></a>
+                <a href="https://m.facebook.com/profile.php?id=61550245499884&locale=en_GB&_rdr" target="_blank"><img src="meta.svg" alt="meta logo"></a>
+                <a href="https://www.instagram.com/gdsc_tezu/" target="_blank"><img src="instagram.svg" alt="instagram logo"></a>
+            </div> 
+        </div>
+        <div id="title">
+            <h1>BINARY BARD</h1>
+        </div>
+        <div class="nav-mid">
+            <span class="button ribbon">
+                <div id="elemchild">
+                    <div class="line">|</div>
+                    <div class="elem">
+                        <h4><a href="#">HOME</a></h4>
+                    </div>
+                    <div class="line">|</div>
+                    <div class="elem">
+                        <h4><a href="#" >BLOG</a></h4>
+                    </div>
+                    <div class="line">|</div>
+                    <div class="elem">
+                        <h4><a href="#">ABOUT</a></h4>
+                    </div>
+                    <div class="line">|</div>
+                </div>
+            </span>
+          </div>
+          <div class="nav-end">
+            <a href=""><div class="all-post">ALL POST</div></a>
+            <div class="search-div">
+                <button class="login-btn">LOGIN</button>
+                <div class="search">
+                    <input type="text" class="input" placeholder="Search...">
+                    <button class="btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div class="content-div-2">
+        <div class="user-info">
+          <img class="profile-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACUklEQVR4nNWWTWsUQRCGHyEbPzBIAkaI4EfABPHkH1Cie9J48ANvHkRyiQdJ1j+geBDdmLsoKiQSkL1pxFUwaBQE/0CU3HKJsGpIIkaESMs7y+7QXTNN9qAvFAzT1fXOVNdb1fAfYAswCNwGJoAZmXu+BZyUT8uwH3gErABfgQowDpRk43r3DVgGHgL7NkK4GRgD1oBnwHGgYPi7tSIwDfxUZtpjSbuBWWAOOOpZ3w4cBPYAmzzrA8Bn4K1i5cIuYB6oAp2egG+A38C67DtwFWhL+XYBrxSrO096Z0WaDnQ+RZi2BR1HOv0v9edm2seU3k5PahcN0sRcAfZ4/vyTztyLXhWS70xP5CBN7Ipn/4AKzlvtTjJPAx9ViiB2mvZhWlJrwlal6VgLiO8EYhSl86YmcwqoeQoqwYUI4pFAjIKajOtwdbiDf0IYhyOIfTWSoJI+isdAmTDORRCfzVDNZOOL18CoseFyBPGwEackrjpmMoj7JYcsUudzwIgzKq46piyBC0M5iJ2PhbKOtemFVVxIBl8M0sUc87iSLq5BzdqQnBplFyJ2MSwUJCfXBZsayA+jgSRoM4izProIrPqy8kAD38IOg9itWXgO3A8NiV/AkcDGQxpxIeKqfAgMiTVgb+iryro5JGOxA7ioGZ1Xx++AS9qbjMV54GZWAbwHXqjn1iII01aTbqu6CFj3tb/YrcG93iKb81wOguiKTG/IPgA785I2SuyGiiKW0LXO6xu94PcD94ClHITO5y7QRwuxDTijP3Gt76PMPV8DTitL/zb+APRlQuREHDzlAAAAAElFTkSuQmCC" />
+          <div class="admin">Admin</div>
+          <div class="date-time">. 21 DEC . 2 MIN</div>
+        </div>
+        <div class="title">TITLE</div>
+        <div class="blog-info">
+          Create a blog post subtitle that summarizes your post in a few short,
+          punchy sentences and entices your audience to continue reading.
+        </div>
+        <img class="content-img" src="content photo.png" alt="" />
+        <div class="main-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione perferendis quod deleniti itaque ut, aspernatur officia beatae
+          facilis mollitia modi nemo cumque eligendi hic maiores. Blanditiis velit laborum aliasLorem ipsum dolor sit amet consectetur adipisicing elit.
+          Officiis ratione perferendis quod deleniti itaque ut, aspernatur officia beatae facilis mollitia modi nemo cumque eligendi hic maiores.
+          Blanditiis velit laborum alias
+        </div>
+        <div class="main-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione perferendis quod deleniti itaque ut, aspernatur officia beatae
+          facilis mollitia modi nemo cumque eligendi hic maiores. Blanditiis velit laborum aliasLorem ipsum dolor sit amet consectetur adipisicing elit.
+          Officiis ratione perferendis quod deleniti itaque ut, aspernatur officiabeatae facilis mollitia modi nemo cumque eligendi hic maiores.
+          Blanditiis velit laborum alias
+        </div>
+        <div class="social">
+            <a href="https://in.linkedin.com/company/gdsc-tezpur-university" target="_blank"><img src="linkedin.svg" alt="linkedin logo"></a>
+            <a href="https://twitter.com/gdsc_tezu" target="_blank"><img src="x.svg" alt="x logo"></a>
+            <a href="https://m.facebook.com/profile.php?id=61550245499884&locale=en_GB&_rdr" target="_blank"><img src="meta.svg" alt="meta logo"></a>
+            <a href="https://www.instagram.com/gdsc_tezu/" target="_blank"><img src="instagram.svg" alt="instagram logo"></a>
+        </div> 
+        <div class="view-like">
+        <div class="views-0-comments">0 views 0 comments</div>
+        <div class="icon-container" onclick="toggleIcons(this)">
+            <img src="heart.png" alt="Icon 1" class="icon icon1">
+            <img src="heart filled.png" alt="Icon 2" class="icon icon2">
+          </div>
+        </div>
+    </div>
+    <div class="recent-all">
+        <div class="recent-post"><a href="#">RECENT POST</a></div>
+        <a href=""><div class="see-all">SEE ALL</div></a>
+    </div>
+    <div class="card-div">
+        <div class="card">
+          <img class="card-img" src="card-1.png" alt="" />
+          <p class="card-info">
+            Create a blog post subtitle that summarizes your post in a few short,
+            punchy sentences and entices your audience to continue reading.
+          </p>
+          <div class="line">
+          <div class="icon-container" onclick="toggleIcons(this)">
+            <img src="heart.png" alt="Icon 1" class="icon icon1">
+            <img src="heart filled.png" alt="Icon 2" class="icon icon2">
+          </div>
+        </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="card-2.png" alt="" />
+          <p class="card-info">
+            Create a blog post subtitle that summarizes your post in a few short,
+            punchy sentences and entices your audience to continue reading.
+          </p>
+          <div class="line">
+            <div class="icon-container" onclick="toggleIcons(this)">
+                <img src="heart.png" alt="Icon 1" class="icon icon1">
+                <img src="heart filled.png" alt="Icon 2" class="icon icon2">
+              </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="card-3.png" alt="" />
+          <p class="card-info">
+            Create a blog post subtitle that summarizes your post in a few short,
+            punchy sentences and entices your audience to continue reading.
+          </p>
+          <div class="line">
+            <div class="icon-container" onclick="toggleIcons(this)">
+                <img src="heart.png" alt="Icon 1" class="icon icon1">
+                <img src="heart filled.png" alt="Icon 2" class="icon icon2">
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="comment">
+        <h1>COMMENT</h1>
+        <input class="comment-box" type="text" placeholder="  Write a comment">
+    </div>
+    <div id="footer">
+        <div id="quicklinks">
+            <h3>Quick Links</h3>
+            <a href=""><li>Chapters</li></a>
+            <a href=""><li>Upcoming events</li></a>
+            <a href=""><li>About GDSC</li></a>
+            <a href=""><li>Lead Terms</li></a>
+            <a href=""><li>Participation Terms</li></a>
+            <a href=""><li>Privacy</li></a>
+            <a href=""><li>Terms</li></a>
+            
+        </div>
+        
+        <div id="socialf">
+            Socials 
+            <div class="socialelem">
+                <a href="https://in.linkedin.com/company/gdsc-tezpur-university" target="_blank"><img src="Socials for footer\linkedin.svg" alt="linkedin logo"></a>
+                <a href="https://twitter.com/gdsc_tezu" target="_blank"><img src="Socials for footer\x.svg" alt="x logo"></a>
+                <a href="https://m.facebook.com/profile.php?id=61550245499884&locale=en_GB&_rdr" target="_blank"><img src="Socials for footer\meta.svg" alt="meta logo"></a>
+                <a href="https://www.instagram.com/gdsc_tezu/" target="_blank"><img src="Socials for footer\insta.svg" alt="instagram logo"></a>
+            </div>
+        </div>
+        <div id="team">
+            <p>MADE BY- <br>NILKAMAL SARMA (FRONTEND) <br> ARUNAV SAHA (FORNTEND) <br>UMANANDA SIDDHA(BACKEND)</p>
+        </div>
+    </div>
+ <script src="index.js"></script>   
+</body>
+</html>
